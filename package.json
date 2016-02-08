@@ -1,0 +1,19 @@
+{
+  "name": "reforged-prepack",
+  "version": "0.0.1",
+  "description": "A structor prepack that uses Hapi, Redux, React, Material-ui, RethinkDb",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Jesse Harlin",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^6.5.0",
+    "good-console": "^5.3.1",
+    "hapi": "^13.0.0",
+    "inert": "^3.2.0",
+    "nes": "^3.0.0",
+    "rethinkdbdash": "^2.2.17"
+  }
+}
