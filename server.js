@@ -9,7 +9,6 @@ const r = require('rethinkdbdash')(config.rethinkdb);
 const server = new Hapi.Server();
 server.connection({port: config.hapi.port});
 
-
 server.route({
     method: 'GET',
     path: '/{name}',

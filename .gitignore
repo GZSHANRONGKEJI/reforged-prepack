@@ -1,2 +1,6 @@
 .vagrant
+.DS_Store
+*.node
+*.log
 node_modules
+public/resources
