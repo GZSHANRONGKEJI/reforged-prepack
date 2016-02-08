@@ -2,10 +2,22 @@
 
 const Hapi = require('hapi');
 const Good = require('good');
-var config = require(__dirname+"/config.js")
+var config = require(__dirname+"/config.js");
 
 
 const r = require('rethinkdbdash')(config.rethinkdb);
+
+/*rethink stuff*/
+
+
+
+
+
+
+
+
+
+
 const server = new Hapi.Server();
 server.connection({port: config.hapi.port});
 
