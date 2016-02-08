@@ -4,6 +4,8 @@
 # GO AWAY!
 
 
+#starting point is similar to material-ui prepack, but is going to be heavily modified.
+
 This is a structor prepack that is based on
 -*re*act
 -*re*dux

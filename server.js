@@ -1,7 +1,7 @@
+//Thisis boilerplate and will likely change
+
 const Hapi = require('hapi');
-
 const Good = require('good');
-
 var config = require(__dirname+"/config.js")
 
 

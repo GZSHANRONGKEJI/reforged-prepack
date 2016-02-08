@@ -1,15 +1,9 @@
-# -*- mode: ruby -*-
-# vi: set ft=ruby :
 
-# Ensure a minimum Vagrant version to prevent potential issues.
 Vagrant.require_version '>= 1.5.0'
 
-# Configure using Vagrant's version 2 API/syntax.
 Vagrant.configure(2) do |config|
-  # Ubuntu 14.04, 64 bit
   config.vm.box         = 'ubuntu/trusty64'
   config.vm.box_version = '~> 14.04'
-
   config.vm.synced_folder '.', '/vagrant', disabled: true
 
   # Providers
@@ -32,9 +26,11 @@ Vagrant.configure(2) do |config|
       wget -qO- http://download.rethinkdb.com/apt/pubkey.gpg | sudo apt-key add -
       sudo apt-get --assume-yes update
       sudo apt-get install --assume-yes rethinkdb;
-
       sed -e 's/# bind=127.0.0.1/bind=all/g' /etc/rethinkdb/default.conf.sample > /etc/rethinkdb/instances.d/default.conf;
       service rethinkdb start;
     EOF
   end
 end
+
+#vagrant file originally from https://github.com/RyanAmos/rethinkdb-vagrant/blob/master/Vagrantfile
+#by Ryan Amos
