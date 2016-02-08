@@ -5,12 +5,17 @@ const Good = require('good');
 var config = require(__dirname+"/config.js");
 
 
-const r = require('rethinkdbdash')(config.rethinkdb);
+const r = require('rethinkdbdash')();
 
 /*rethink stuff*/
 
-
-
+r
+  .db('test')
+  .tableCreate('authors')
+  .run()
+  .then((data) => {
+    console.log(data)
+  });
 
 
 
