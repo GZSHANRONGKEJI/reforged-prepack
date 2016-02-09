@@ -1,11 +1,9 @@
 import { createStore, applyMiddleware } from 'redux';
 import rootReducer from '../reducers';
 import myMiddleware from '../middleware/middleware.js';
-import thunkMiddleWare from 'redux-thunk';
 import initialState from './initialState.js';
 
 const createStoreWithMiddleware = applyMiddleware(
-    thunkMiddleWare,
     myMiddleware
 )(createStore);
 
@@ -20,4 +18,3 @@ export default function initStore() {
     }
     return store;
 }
-

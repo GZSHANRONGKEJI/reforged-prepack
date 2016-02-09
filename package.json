@@ -4,7 +4,9 @@
   "description": "A structor prepack that uses Hapi, Redux, React, Material-ui, RethinkDb",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "test",
+    "build": "webpack --config ./build-conf/webpack.config.js --progress --colors",
+    "build-dev": "webpack --config ./build-conf/webpack-dev.config.js --progress --colors"
   },
   "author": "Jesse Harlin",
   "license": "ISC",
@@ -32,6 +34,7 @@
     "react-tap-event-plugin": "0.2.2",
     "reduce-reducers": "0.1.2",
     "redux": "3.3.1",
+    "redux-rx": "^0.5.0",
     "rethinkdbdash": "^2.2.17",
     "rx": "^4.0.7",
     "rx-node": "^1.0.1"
