@@ -9,18 +9,13 @@ const r = require('rethinkdbdash')();
 
 /*rethink stuff*/
 
-r
-  .db('test')
-  .tableCreate('authors')
-  .run()
-  .then((data) => {
-    console.log(data)
-  });
-
-
-
-
-
+// r
+//   .db('test')
+//   .tableCreate('authors')
+//   .run()
+//   .then((data) => {
+//     console.log(data)
+//   });
 
 
 const server = new Hapi.Server();
