@@ -15,7 +15,10 @@ Re^4, or "reforged"
 
 ...with hapi as the server.
 
-####setup
+####thrifty setup
+
+This isn't real documentation. it sucks and will be rewritten.
+
 ```sh
 
 vagrant up
@@ -28,3 +31,13 @@ structor
 
 navigate to `http://localhost:2222/structor/`
 navigate to `http://localhost:8080/`
+
+
+```sh
+npm run build && node server
+
+```
+
+app will start on port 3553
+
+navigate to `http://localhost:3553/`
