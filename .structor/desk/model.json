@@ -9,6 +9,14 @@
             "title": "Demo"
           },
           "children": []
+        },
+        {
+          "variantName": "Default",
+          "type": "FlatButton",
+          "props": {
+            "label": "Example"
+          },
+          "children": []
         }
       ],
       "props": {},
