@@ -6,24 +6,19 @@
         {
           "type": "DemoAppBar",
           "props": {
-            "title": "Demo"
-          },
-          "children": []
-        },
-        {
-          "variantName": "Default",
-          "type": "FlatButton",
-          "props": {
-            "label": "Example"
+            "title": "Demo",
+            "data-umyid": "2"
           },
           "children": []
         }
       ],
-      "props": {},
+      "props": {
+        "data-umyid": "1"
+      },
       "pageMetaInfo": [],
       "bodyScript": "",
       "pagePath": "/",
-      "pageTitle": "PageSet1",
+      "pageTitle": "Demo",
       "pageProps": [],
       "pageScript": ""
     }
