@@ -32,7 +32,7 @@ Vagrant.configure(2) do |config|
         sudo apt-get --assume-yes update
         sudo apt-get install --assume-yes rethinkdb;
         sed -e 's/# bind=127.0.0.1/bind=all/g' /etc/rethinkdb/default.conf.sample > /etc/rethinkdb/instances.d/default.conf;
-        sed -i 's/# canonical-address=/canonical-address=10.10.0.21/g'  /etc/rethinkdb/instances.d/default.conf;
+        sed -i 's/# canonical-address=/canonical-address=10.10.0.20/g'  /etc/rethinkdb/instances.d/default.conf;
         service rethinkdb start;
       EOF
     end
