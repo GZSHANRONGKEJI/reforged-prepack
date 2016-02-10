@@ -30,9 +30,7 @@ class DemoAppBar extends Component {
             <div>
                 <AppBar {...this.props} onLeftIconButtonTouchTap={this.showLeftNavClick}/>
                 <LeftNav ref="leftNav" docked={false} width={200} open={this.state.leftNavOpen}>
-                    <MenuItem primaryText="go to /set1" data-value="set1" onTouchTap={this.handleLinkClick}/>
-                    <MenuItem primaryText="go to /set2" data-value="set2" onTouchTap={this.handleLinkClick}/>
-                    <MenuItem primaryText="go to /progress" data-value="progress" onTouchTap={this.handleLinkClick}/>
+                    <MenuItem primaryText="Home" data-value="" onTouchTap={this.handleLinkClick}/>
                 </LeftNav>
             </div>
             );
