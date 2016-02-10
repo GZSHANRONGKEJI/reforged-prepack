@@ -67,6 +67,7 @@ module.exports = {
         FlatButtonDialog: require('../../src/components/MaterialUIDialogs/FlatButtonDialog.jsx')
     },
     DemoGroup: {
-        DemoAppBar: require('../../src/components/DemoGroup/DemoAppBar.jsx')
+        DemoAppBar: require('../../src/components/DemoGroup/DemoAppBar.jsx'),
+        TodoList: require('../../src/components/DemoGroup/TodoList.jsx')
     }
 };

@@ -4,17 +4,45 @@
       "pageName": "Default",
       "children": [
         {
-          "type": "DemoAppBar",
-          "props": {
-            "title": "Demo",
-            "data-umyid": "2"
-          },
-          "children": []
+          "variantName": "Unsaved variant",
+          "type": "div",
+          "props": {},
+          "children": [
+            {
+              "type": "span",
+              "text": "Empty div",
+              "props": {},
+              "children": [
+                {
+                  "variantName": "Default",
+                  "type": "TextField",
+                  "props": {
+                    "hintText": "Enter TODO Item"
+                  },
+                  "children": []
+                },
+                {
+                  "variantName": "Primary",
+                  "type": "RaisedButton",
+                  "props": {
+                    "label": "Add Item",
+                    "primary": true,
+                    "disabled": false
+                  },
+                  "children": []
+                },
+                {
+                  "variantName": "default",
+                  "type": "TodoList",
+                  "props": {},
+                  "children": []
+                }
+              ]
+            }
+          ]
         }
       ],
-      "props": {
-        "data-umyid": "1"
-      },
+      "props": {},
       "pageMetaInfo": [],
       "bodyScript": "",
       "pagePath": "/",
