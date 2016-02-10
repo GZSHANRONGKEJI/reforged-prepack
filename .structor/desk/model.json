@@ -6,18 +6,23 @@
         {
           "variantName": "Unsaved variant",
           "type": "div",
-          "props": {},
+          "props": {
+            "data-umyid": "2"
+          },
           "children": [
             {
               "type": "span",
               "text": "Empty div",
-              "props": {},
+              "props": {
+                "data-umyid": "3"
+              },
               "children": [
                 {
                   "variantName": "Default",
                   "type": "TextField",
                   "props": {
-                    "hintText": "Enter TODO Item"
+                    "hintText": "Enter TODO Item",
+                    "data-umyid": "4"
                   },
                   "children": []
                 },
@@ -27,14 +32,17 @@
                   "props": {
                     "label": "Add Item",
                     "primary": true,
-                    "disabled": false
+                    "disabled": false,
+                    "data-umyid": "5"
                   },
                   "children": []
                 },
                 {
                   "variantName": "default",
                   "type": "TodoList",
-                  "props": {},
+                  "props": {
+                    "data-umyid": "6"
+                  },
                   "children": []
                 }
               ]
@@ -42,11 +50,44 @@
           ]
         }
       ],
-      "props": {},
+      "props": {
+        "data-umyid": "1"
+      },
       "pageMetaInfo": [],
       "bodyScript": "",
       "pagePath": "/",
       "pageTitle": "Demo",
+      "pageProps": [],
+      "pageScript": ""
+    },
+    {
+      "pageName": "Counter",
+      "pagePath": "/counter",
+      "children": [
+        {
+          "type": "h3",
+          "props": {
+            "style": {
+              "padding": "1em",
+              "textAlign": "center"
+            },
+            "data-umyid": "8"
+          },
+          "children": [
+            {
+              "type": "span",
+              "text": "This is an empty page. To add new component select needed element on left-side panel and click on an element on the page where you want to put new component, than choose action for right component's place.",
+              "props": {
+                "data-umyid": "9"
+              }
+            }
+          ]
+        }
+      ],
+      "props": {
+        "data-umyid": "7"
+      },
+      "pageTitle": "UnnamedPage1",
       "pageProps": [],
       "pageScript": ""
     }
