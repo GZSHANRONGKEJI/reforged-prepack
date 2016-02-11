@@ -6,53 +6,79 @@
         {
           "variantName": "Unsaved variant",
           "type": "div",
-          "props": {
-            "data-umyid": "2"
-          },
+          "props": {},
           "children": [
             {
-              "type": "span",
-              "text": "Empty div",
+              "type": "Row",
               "props": {
-                "data-umyid": "3"
+                "className": "row center-xs"
               },
               "children": [
                 {
-                  "variantName": "Default",
-                  "type": "TextField",
+                  "type": "Col",
                   "props": {
-                    "hintText": "Enter TODO Item",
-                    "data-umyid": "4"
+                    "className": "col-xs-6"
                   },
-                  "children": []
-                },
-                {
-                  "variantName": "Primary",
-                  "type": "RaisedButton",
-                  "props": {
-                    "label": "Add Item",
-                    "primary": true,
-                    "disabled": false,
-                    "data-umyid": "5"
-                  },
-                  "children": []
-                },
-                {
-                  "variantName": "default",
-                  "type": "TodoList",
-                  "props": {
-                    "data-umyid": "6"
-                  },
-                  "children": []
+                  "children": [
+                    {
+                      "type": "Box",
+                      "props": {
+                        "className": ""
+                      },
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "TextField",
+                          "props": {
+                            "hintText": "Hint text"
+                          },
+                          "children": []
+                        },
+                        {
+                          "variantName": "Primary",
+                          "type": "RaisedButton",
+                          "props": {
+                            "label": "Default",
+                            "primary": true,
+                            "disabled": false
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Box",
+                      "props": {},
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "TableX",
+                          "props": {
+                            "fixedHeader": true,
+                            "fixedFooter": true,
+                            "stripedRows": false,
+                            "showRowHover": false,
+                            "selectable": true,
+                            "multiSelectable": true,
+                            "enableSelectAll": true,
+                            "deselectOnClickaway": true,
+                            "height": "300px"
+                          },
+                          "children": [],
+                          "text": null
+                        }
+                      ]
+                    }
+                  ],
+                  "text": null
                 }
-              ]
+              ],
+              "text": null
             }
           ]
         }
       ],
-      "props": {
-        "data-umyid": "1"
-      },
+      "props": {},
       "pageMetaInfo": [],
       "bodyScript": "",
       "pagePath": "/",
@@ -70,23 +96,18 @@
             "style": {
               "padding": "1em",
               "textAlign": "center"
-            },
-            "data-umyid": "8"
+            }
           },
           "children": [
             {
               "type": "span",
               "text": "This is an empty page. To add new component select needed element on left-side panel and click on an element on the page where you want to put new component, than choose action for right component's place.",
-              "props": {
-                "data-umyid": "9"
-              }
+              "props": {}
             }
           ]
         }
       ],
-      "props": {
-        "data-umyid": "7"
-      },
+      "props": {},
       "pageTitle": "UnnamedPage1",
       "pageProps": [],
       "pageScript": ""
