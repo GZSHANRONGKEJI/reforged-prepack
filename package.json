@@ -43,6 +43,7 @@
     "rx": "^4.0.7",
     "rx-lite": "^4.0.7",
     "rx-node": "^1.0.1",
+    "rx-react": "^0.3.0",
     "rx-redux": "^0.5.7"
   },
   "devDependencies": {
