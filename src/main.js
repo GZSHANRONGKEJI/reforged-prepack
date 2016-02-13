@@ -9,10 +9,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import getRoutes from './routes/routes.js';
-import storeManager from './store/storeManager.js';
+import initStore from './store/storeManager.js';
 
 const routes = getRoutes();
-const store = storeManager();
+const store = initStore();
 
 ReactDOM.render(
     <Provider store={store}>

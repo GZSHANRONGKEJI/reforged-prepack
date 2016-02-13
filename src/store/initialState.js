@@ -1,11 +1,11 @@
+import * as types from '../constants/action-types';
+
 const initialState = {
-  visibilityFilter: 'SHOW_ALL',
+  visibilityFilter: types.SHOW_ALL,
   todos: [{
-    text: 'Consider using Redux',
-    completed: true,
-  }, {
-    text: 'Keep all state in a single tree',
-    completed: false
+    text: 'First TODO Example',
+    completed: false,
+    id: 0
   }]
 };
 export default initialState;
