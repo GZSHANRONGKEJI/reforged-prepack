@@ -33,30 +33,11 @@
                       "children": []
                     },
                     {
-                      "type": "Box",
+                      "variantName": "Unsaved variant",
+                      "type": "TodoList",
                       "props": {
-                        "data-umyid": "8"
-                      },
-                      "children": [
-                        {
-                          "variantName": "Default",
-                          "type": "TableX",
-                          "props": {
-                            "fixedHeader": true,
-                            "fixedFooter": true,
-                            "stripedRows": false,
-                            "showRowHover": false,
-                            "selectable": true,
-                            "multiSelectable": true,
-                            "enableSelectAll": true,
-                            "deselectOnClickaway": true,
-                            "height": "300px",
-                            "data-umyid": "9"
-                          },
-                          "children": [],
-                          "text": null
-                        }
-                      ]
+                        "data-umyid": "6"
+                      }
                     }
                   ],
                   "text": null
@@ -88,21 +69,21 @@
               "padding": "1em",
               "textAlign": "center"
             },
-            "data-umyid": "11"
+            "data-umyid": "8"
           },
           "children": [
             {
               "type": "span",
               "text": "This is an empty page. To add new component select needed element on left-side panel and click on an element on the page where you want to put new component, than choose action for right component's place.",
               "props": {
-                "data-umyid": "12"
+                "data-umyid": "9"
               }
             }
           ]
         }
       ],
       "props": {
-        "data-umyid": "10"
+        "data-umyid": "7"
       },
       "pageTitle": "UnnamedPage1",
       "pageProps": [],
